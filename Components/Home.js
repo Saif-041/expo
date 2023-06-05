@@ -1,8 +1,10 @@
-import { StyleSheet, Image } from 'react-native';
+import { StyleSheet, Text } from 'react-native';
 
-export default function Home({ placeholderImageSource }) {
+export default function Home() {
   return (
-    <Image source={placeholderImageSource} style={styles.image} />
+  <Text>
+    New Home Screen
+  </Text>
   );
 }
 
